@@ -1,0 +1,29 @@
+# IDEs
+.idea
+
+# Python
+.python-version
+*~$*
+*.pyc
+*.swp
+*.swo
+*.swn
+
+# Mac
+*.DS_Store
+
+# Autosave
+*.autosave
+*~
+
+# Custom
+client/__pycache__/*
+
+# Egg
+*.egg-info
+
+# Distribution
+dist
+
+# Build
+build
