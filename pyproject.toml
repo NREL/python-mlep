@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mlep"
+version = "0.1.0-dev1"
+description = "Interact with an EnergyPlus simulation during runtime using the BCVTB protocol."
+authors = [
+    'Willy Bernal Heredia <willy.bernalheredia@nrel.gov>',
+    'Cory Mosiman <cory.mosiman@nrel.gov>'
+]
+readme = 'README.md'
+license = 'LICENSE.txt'
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.1"
+tox = "^3.20.1"
+pre-commit = "^2.9.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
