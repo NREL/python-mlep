@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mlep"
-version = "0.1.1-dev2"
+version = "0.1.1-dev3"
 description = "Interact with an EnergyPlus simulation during runtime using the BCVTB protocol."
 authors = [
     'Willy Bernal Heredia <willy.bernalheredia@nrel.gov>',
